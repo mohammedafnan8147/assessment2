@@ -1,0 +1,7 @@
+numpy==1.16.6
+scipy==1.2.3
+scikit-learn==0.20.4
+torch==1.1.0
+pytorch-pretrained-bert==0.6.2
+nltk==3.4.1
+tqdm==4.31.1
