@@ -1,0 +1,13 @@
+{
+  "name": "BERT FEVER (legacy Python)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/BERT_FEVER",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
