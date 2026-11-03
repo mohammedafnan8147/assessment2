@@ -4,6 +4,7 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DATA_DIR="${1:-$ROOT_DIR/data}"
 OUTPUT_DIR="${2:-$ROOT_DIR/outputs/retrieval-$(date +%Y%m%d-%H%M%S)}"
+OUTPUT_DIR="${OUTPUT_DIR%/}/"
 
 required_files=(
   "train_sentences_pos.tsv"
